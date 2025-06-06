@@ -92,4 +92,4 @@ Vamos nos conectar no [LinkedIn](https://www.linkedin.com/in/seu-usuario)!
 
 ---
 
-Feito com 💙 usando Angular, RxJS e Tailwind CSS.
+Feito usando Angular, RxJS e Tailwind CSS.
