@@ -1,59 +1,95 @@
-# FirstNgApp
+# 🚀 Projeto Angular 20 — Arquitetura Modular e UX/Responsividade
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.14.
+Este repositório contém um projeto desenvolvido com **Angular 20**, com o objetivo de consolidar boas práticas de **arquitetura front-end**, **modularização**, **responsividade** e **programação reativa com RxJS**.
 
-## Development server
+![Angular](https://img.shields.io/badge/Angular-20-red)
+![RxJS](https://img.shields.io/badge/RxJS-Reativo-purple)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-Utility--First-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## ✨ Tecnologias utilizadas
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- [Angular 20](https://angular.io/)
+- [RxJS](https://rxjs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- TypeScript
+- Vite (Angular CLI opcional para build)
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🧱 Estrutura e arquitetura
 
-```bash
-ng generate component component-name
-```
+- **Modularização por domínio** com lazy loading
+- **Standalone components** para mais leveza e organização
+- **Serviços com RxJS** para gerenciamento de estado e comunicação entre componentes
+- Diretivas, Pipes personalizados e injeção de dependência seguindo padrões da comunidade
+- Separação entre lógica, apresentação e acesso a dados (arquitetura limpa)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 📱 Responsividade e UX
 
-## Building
+- Interface responsiva com Tailwind CSS
+- Componentes reutilizáveis e com foco em acessibilidade
+- Boas práticas de UX: feedback visual, legibilidade, consistência
 
-To build the project run:
+---
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+## ▶️ Como rodar localmente
 
 ```bash
-ng e2e
+# 1. Clone o repositório
+$ git clone https://github.com/seu-usuario/nome-do-repo.git
+
+# 2. Acesse o diretório
+$ cd nome-do-repo
+
+# 3. Instale as dependências
+$ npm install
+
+# 4. Rode o servidor de desenvolvimento
+$ npm run dev
+
+# A aplicação estará disponível em http://localhost:4200 (ou porta definida)
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 🛠️ Scripts disponíveis
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- `npm run dev`: inicia o servidor de desenvolvimento
+- `npm run build`: gera a build de produção
+- `npm run lint`: roda a análise estática do código
+
+---
+
+## 📚 Objetivos de aprendizado
+
+- Explorar o novo Angular 20 com enfoque prático
+- Aplicar conceitos de arquitetura escalável
+- Reforçar boas práticas de UI/UX e componentização
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob os termos da **MIT License**.
+
+---
+
+## 🤝 Contribuição
+
+Pull requests são bem-vindos! Se você tem ideias ou sugestões, sinta-se à vontade para abrir uma issue ou contribuir com melhorias.
+
+---
+
+## 📩 Contato
+
+Quer conversar sobre Angular, arquitetura front-end ou trocar experiências?
+Vamos nos conectar no [LinkedIn](https://www.linkedin.com/in/seu-usuario)!
+
+---
+
+Feito com 💙 usando Angular, RxJS e Tailwind CSS.
